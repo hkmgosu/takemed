@@ -24,7 +24,10 @@ const HomeScreen: React.FC = () => {
       }}
     >
       <Header title="Bienvenido" />
-      <ScrollView className="flex-1 items-center justify-center bg-gray-100 p-4">
+      <ScrollView
+        className="bg-gray-100 p-4"
+        contentContainerClassName="flex-1 items-center justify-center"
+      >
         <UserInfo />
         <SyncButton />
       </ScrollView>

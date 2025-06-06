@@ -22,12 +22,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Build Android
-        run: |
-          npm install -g eas-cli
-          eas build --platform android --profile preview
-          
-      - name: Build iOS
-        run: |
-          eas build --platform ios --profile preview

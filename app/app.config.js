@@ -6,7 +6,7 @@ export default () => {
       name: "TakeMed",
       slug: "takemed",
       extra: {
-        apiKey: process.env.OPENAI_API_KEY,
+        apiKey: process.env.EXPO_PUBLIC_OPENAI_API_KEY,
       },
     },
   };

@@ -13,7 +13,7 @@ import { useFocusEffect } from "@react-navigation/native";
 import AdviceList from "../components/AdviceList";
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.EXPO_PUBLIC_OPENAI_API_KEY,
   dangerouslyAllowBrowser: true,
 });
 
